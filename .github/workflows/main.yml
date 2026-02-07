@@ -19,7 +19,7 @@ defaults:
 jobs:
   flutter-tests:
     name: Test Flutter ${{ matrix.flutter_version }} on self-hosted runner
-    runs-on: self-hosted
+    runs-on: pan93412-gh-runner-test
     strategy:
       fail-fast: false
       matrix:
